@@ -1,0 +1,59 @@
+@font-face 
+{
+  font-family: Samsung;
+  src: url(fonts/samsungsharpsans-medium.otf);
+  font-weight: regular;
+}
+@font-face 
+{
+  font-family: Samsung;
+  src: url(fonts/samsungsharpsans.otf);
+  font-weight: thin;
+}
+@font-face 
+{
+  font-family: Samsung;
+  src: url(fonts/samsungsharpsans-bold.otf);
+  font-weight: bold;
+}
+body
+{
+  background-color: black;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+h1
+{
+  color: white;
+  font-family: Samsung;
+  font-weight: bold;
+}
+a
+{
+  color: white;
+  font-family: Samsung;
+  font-weight: regular;
+  padding: 20px;
+  text-decoration: underline dotted;
+}
+label.checklist
+{
+  color: white;
+  font-family: Samsung;
+  font-weight: thin;
+}
+input.submit
+{
+  background-color:black;
+  border-style:solid;
+  border-color:white;
+  text-color: white;
+  font-family: Samsung;
+  font-weight: thin; 
+  margin: 10px;
+  padding: 5px;
+}
